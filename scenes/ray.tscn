@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cb5yu16e0gvjo"]
+
+[ext_resource type="Texture2D" uid="uid://cs0imranr4fxk" path="res://kenney_pixel-platformer-industrial-expansion/Tiles/tile_0058.png" id="1_gwcxc"]
+
+[node name="Ray" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_gwcxc")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+target_position = Vector2(0, -10)
